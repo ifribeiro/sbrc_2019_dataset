@@ -20,6 +20,6 @@ After the QR  scanning process, the attendees’ data was sent to a web server, 
 
 # trace description
 
-The trace for the one simulator (file sbrc_2019.txt) generated from the dataset, represents a sequence of connections and disconnections that happened only in the event's Technical Sessions, that took place on the 2nd, 3th and 4th day of the event.
+The trace for the one simulator (file sbrc_2019.txt) generated from the dataset, represents a sequence of connections and disconnections that happened only in the event's Technical Sessions, that took place on the 2nd, 3rd and 4th day of the event.
 
 The first column is the time when the event happened (connection or disconnection), second column is a command that will be used for the one simulator, the third and fourth columns represents two distinct nodes that will be connected or disconnected and the last column indicates if either a connection (up) or disconnection (down) should de made for that two nodes.
