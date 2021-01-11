@@ -1,12 +1,6 @@
 # dataset description
 
-The dataset is a CSV file, where each line represents a participant interaction in a given session. Each line has 5 columns (Name,Institution,session,participation,updated_at) where each column indicates the participant's name, his institution, the session he enters, the type of participation in the session, and the time the interaction happens, respectively.
-
-The participation could be:
-- Join: When the participants enters in the session
-- Question: When the participant asks a question
-
-The sessions from ST-1 to ST-23 are Technical Sessions and the other ones are Workshops.
+The dataset is a CSV file, where each line represents a participant and the time he enters in a given session. Each line has 5 columns (timestamp, ts, id, inst_id) where each column indicates the time that a participant enters in a session, the technical session, the participant's id, and the participant's institution id, respectively.
 
 # collection environment
 
@@ -20,6 +14,6 @@ After the QR  scanning process, the attendees’ data was sent to a web server, 
 
 # trace description
 
-The trace for the one simulator (file sbrc_2019.txt) generated from the dataset, represents a sequence of connections and disconnections that happened only in the event's Technical Sessions, that took place on the 2nd, 3rd and 4th day of the event.
+The trace for the one simulator (file sbrc_2019.txt) generated from the dataset, represents a sequence of connections and disconnections that happened along the the 2nd, 3th and 4th day of the event.
 
-The first column is the time when the event happened (connection or disconnection), second column is a command that will be used for the one simulator, the third and fourth columns represents two distinct nodes that will be connected or disconnected and the last column indicates if either a connection (up) or disconnection (down) should de made for that two nodes.
+The first column is the time when the event happened (connection or disconnection), second column is a command that will be used for the one simulator, the third and fourth columns represents two distinct nodes that will connected or disconnected and the last column indicates if either a connection (up) or disconnection (down) should de made for that two nodes.
