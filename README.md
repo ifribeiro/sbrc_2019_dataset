@@ -1,6 +1,12 @@
 # dataset description
 
-The dataset is a CSV file, where each line represents a participant and the time he enters in a given session. Each line has 5 columns (timestamp, ts, id, inst_id) where each column indicates the time that a participant enters in a session, the technical session, the participant's id, and the participant's institution id, respectively.
+The dataset is a CSV file, where each line represents a participant interaction in a given session. Each line has 5 columns (Name,Institution,session,participation,updated_at) where each column indicates the participant's name, his institution, the session he enters, the type of participation in the session, and the time the interaction happens, respectively.
+
+The participation could be:
+- Join: When the participants enters in the session
+- Question: When the participant asks a question
+
+The sessions from ST-1 to ST-23 are Technical Sessions and the other ones are Workshops.
 
 # collection environment
 
